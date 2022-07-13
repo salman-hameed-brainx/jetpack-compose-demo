@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Goal APP</string>
+    <string name="facebook_app_id">""</string>
+    <string name="fb_login_protocol_scheme">""</string>
+    <string name="facebook_client_token">""</string>
+    <string name="calories">Calories</string>
+    <string name="edit_account">Edit Account</string>
+    <string name="change_password">Change Password</string>
+    <string name="connect_with_partner_apps">Connect with Partner Apps</string>
+    <string name="log_out">Log Out</string>
+    <string name="login_info">Please enter email address and password you are using for your account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="login_in">Log in</string>
+    <string name="save_changes">Save changes</string>
+    <string name="confirm">Confirm</string>
+</resources>

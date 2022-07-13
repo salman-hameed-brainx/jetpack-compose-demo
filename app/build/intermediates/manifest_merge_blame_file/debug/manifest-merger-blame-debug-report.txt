@@ -1,0 +1,297 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mobile.goal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:6:5-80
+12-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:6:22-77
+13
+14    <uses-feature android:name="android.hardware.camera.any" />
+14-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:8:5-64
+14-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:8:19-61
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:9:5-65
+16-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:9:22-62
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:28:5-79
+17-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:28:22-76
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.android.installreferrer:installreferrer:1.0] C:\Users\DELL\.gradle\caches\transforms-3\7f660008284ac092f3680c8dab2f08ff\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+18-->[com.android.installreferrer:installreferrer:1.0] C:\Users\DELL\.gradle\caches\transforms-3\7f660008284ac092f3680c8dab2f08ff\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+19
+20    <application
+20-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:11:5-57:19
+21        android:name="com.mobile.goal.App"
+21-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:12:9-28
+22        android:allowBackup="true"
+22-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:13:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.7.0] C:\Users\DELL\.gradle\caches\transforms-3\9442317975160c794057195b85f45ed5\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:14:9-43
+26        android:label="@string/app_name"
+26-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:15:9-41
+27        android:networkSecurityConfig="@xml/network_security_config"
+27-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:16:9-69
+28        android:requestLegacyExternalStorage="true"
+28-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:17:9-52
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:18:9-54
+30        android:supportsRtl="true"
+30-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:19:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.DistantRace"
+32-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:20:9-49
+33        android:usesCleartextTraffic="true" >
+33-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:21:9-44
+34        <activity
+34-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:22:9-31:20
+35            android:name="com.mobile.goal.MainActivity"
+35-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:23:13-41
+36            android:exported="true"
+36-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:24:13-36
+37            android:theme="@style/Theme.DistantRace.NoActionBar" >
+37-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:25:13-65
+38            <intent-filter>
+38-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:26:13-30:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:27:17-69
+39-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:27:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:29:17-77
+41-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:29:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:33:9-35:99
+45            android:name="com.facebook.FacebookActivity"
+45-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:34:13-57
+46            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+46-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:35:13-96
+47            android:theme="@style/com_facebook_activity_theme" />
+47-->[com.facebook.android:facebook-common:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\92c226f10bbeeeeac2f18ea44c1a95b5\transformed\jetified-facebook-common-14.0.0\AndroidManifest.xml:33:13-63
+48        <activity
+48-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:37:9-48:20
+49            android:name="com.facebook.CustomTabActivity"
+49-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:38:13-58
+50            android:exported="true" >
+50-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:39:13-36
+51            <intent-filter>
+51-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:40:13-47:29
+52                <action android:name="android.intent.action.VIEW" />
+52-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:41:17-69
+52-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:41:25-66
+53
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:43:17-76
+54-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:43:27-73
+55                <category android:name="android.intent.category.BROWSABLE" />
+55-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:44:17-78
+55-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:44:27-75
+56
+57                <data android:scheme="@string/fb_login_protocol_scheme" />
+57-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:46:17-75
+57-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:46:23-72
+58            </intent-filter>
+59            <intent-filter>
+59-->[com.facebook.android:facebook-common:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\92c226f10bbeeeeac2f18ea44c1a95b5\transformed\jetified-facebook-common-14.0.0\AndroidManifest.xml:39:13-48:29
+60                <action android:name="android.intent.action.VIEW" />
+60-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:41:17-69
+60-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:41:25-66
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:43:17-76
+62-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:43:27-73
+63                <category android:name="android.intent.category.BROWSABLE" />
+63-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:44:17-78
+63-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:44:27-75
+64
+65                <data
+65-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:46:17-75
+66                    android:host="cct.com.mobile.goal"
+67                    android:scheme="fbconnect" />
+67-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:46:23-72
+68            </intent-filter>
+69        </activity>
+70
+71        <meta-data
+71-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:50:9-52:55
+72            android:name="com.facebook.sdk.ApplicationId"
+72-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:51:13-58
+73            android:value="@string/facebook_app_id" />
+73-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:52:13-52
+74        <meta-data
+74-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:53:9-55:61
+75            android:name="com.facebook.sdk.ClientToken"
+75-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:54:13-56
+76            android:value="@string/facebook_client_token" />
+76-->D:\Workspace\goal_app_and_article_link\goal-android-app\app\src\main\AndroidManifest.xml:55:13-58
+77
+78        <activity
+78-->[androidx.compose.ui:ui-tooling:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\de1b806cdfb27fcdeeb830a8ecfe90c2\transformed\jetified-ui-tooling-1.1.1\AndroidManifest.xml:25:9-27:39
+79            android:name="androidx.compose.ui.tooling.PreviewActivity"
+79-->[androidx.compose.ui:ui-tooling:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\de1b806cdfb27fcdeeb830a8ecfe90c2\transformed\jetified-ui-tooling-1.1.1\AndroidManifest.xml:26:13-71
+80            android:exported="true" />
+80-->[androidx.compose.ui:ui-tooling:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\de1b806cdfb27fcdeeb830a8ecfe90c2\transformed\jetified-ui-tooling-1.1.1\AndroidManifest.xml:27:13-36
+81        <activity android:name="com.facebook.CustomTabMainActivity" />
+81-->[com.facebook.android:facebook-common:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\92c226f10bbeeeeac2f18ea44c1a95b5\transformed\jetified-facebook-common-14.0.0\AndroidManifest.xml:34:9-71
+81-->[com.facebook.android:facebook-common:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\92c226f10bbeeeeac2f18ea44c1a95b5\transformed\jetified-facebook-common-14.0.0\AndroidManifest.xml:34:19-68
+82        <!--
+83         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+84         with the application context. This config is merged in with the host app's manifest,
+85         but there can only be one provider with the same authority activated at any given
+86         point; so if the end user has two or more different apps that use Facebook SDK, only the
+87         first one will be able to use the provider. To work around this problem, we use the
+88         following placeholder in the authority to identify each host application as if it was
+89         a completely different provider.
+90        -->
+91        <provider
+91-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:41:9-44:40
+92            android:name="com.facebook.internal.FacebookInitProvider"
+92-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:42:13-70
+93            android:authorities="com.mobile.goal.FacebookInitProvider"
+93-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:43:13-72
+94            android:exported="false" />
+94-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:44:13-37
+95
+96        <receiver
+96-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:46:9-52:20
+97            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+97-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:47:13-86
+98            android:exported="false" >
+98-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:48:13-37
+99            <intent-filter>
+99-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:49:13-51:29
+100                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+100-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:50:17-95
+100-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:50:25-92
+101            </intent-filter>
+102        </receiver>
+103        <receiver
+103-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:53:9-59:20
+104            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+104-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:54:13-118
+105            android:exported="false" >
+105-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:55:13-37
+106            <intent-filter>
+106-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:56:13-58:29
+107                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+107-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:57:17-103
+107-->[com.facebook.android:facebook-core:14.0.0] C:\Users\DELL\.gradle\caches\transforms-3\0640d1cbddd4f10cfe5000a780240538\transformed\jetified-facebook-core-14.0.0\AndroidManifest.xml:57:25-100
+108            </intent-filter>
+109        </receiver>
+110
+111        <activity
+111-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\DELL\.gradle\caches\transforms-3\e68eda029d896f3ff0fee683a67914fb\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:23:9-27:75
+112            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+112-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\DELL\.gradle\caches\transforms-3\e68eda029d896f3ff0fee683a67914fb\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:24:13-93
+113            android:excludeFromRecents="true"
+113-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\DELL\.gradle\caches\transforms-3\e68eda029d896f3ff0fee683a67914fb\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:25:13-46
+114            android:exported="false"
+114-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\DELL\.gradle\caches\transforms-3\e68eda029d896f3ff0fee683a67914fb\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:26:13-37
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+115-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\DELL\.gradle\caches\transforms-3\e68eda029d896f3ff0fee683a67914fb\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:27:13-72
+116        <!--
+117            Service handling Google Sign-In user revocation. For apps that do not integrate with
+118            Google Sign-In, this service will never be started.
+119        -->
+120        <service
+120-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\DELL\.gradle\caches\transforms-3\e68eda029d896f3ff0fee683a67914fb\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:33:9-37:51
+121            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+121-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\DELL\.gradle\caches\transforms-3\e68eda029d896f3ff0fee683a67914fb\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:34:13-89
+122            android:exported="true"
+122-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\DELL\.gradle\caches\transforms-3\e68eda029d896f3ff0fee683a67914fb\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:35:13-36
+123            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+123-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\DELL\.gradle\caches\transforms-3\e68eda029d896f3ff0fee683a67914fb\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:36:13-107
+124            android:visibleToInstantApps="true" />
+124-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\DELL\.gradle\caches\transforms-3\e68eda029d896f3ff0fee683a67914fb\transformed\jetified-play-services-auth-20.1.0\AndroidManifest.xml:37:13-48
+125
+126        <activity
+126-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\8c4070817f6486d262e328da7150efed\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+127            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+127-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\8c4070817f6486d262e328da7150efed\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+128            android:exported="false"
+128-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\8c4070817f6486d262e328da7150efed\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\8c4070817f6486d262e328da7150efed\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+130
+131        <meta-data
+131-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c48d3d2a6307304d9b722f4ccc792d54\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+132            android:name="com.google.android.gms.version"
+132-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c48d3d2a6307304d9b722f4ccc792d54\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+133            android:value="@integer/google_play_services_version" />
+133-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\c48d3d2a6307304d9b722f4ccc792d54\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+134
+135        <provider
+135-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d3502d176fca20abdf2fa0050d0b7879\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+136            android:name="androidx.startup.InitializationProvider"
+136-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d3502d176fca20abdf2fa0050d0b7879\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+137            android:authorities="com.mobile.goal.androidx-startup"
+137-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d3502d176fca20abdf2fa0050d0b7879\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+138            android:exported="false" >
+138-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d3502d176fca20abdf2fa0050d0b7879\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+139            <meta-data
+139-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d3502d176fca20abdf2fa0050d0b7879\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+140                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+140-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d3502d176fca20abdf2fa0050d0b7879\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+141                android:value="androidx.startup" />
+141-->[androidx.emoji2:emoji2:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\d3502d176fca20abdf2fa0050d0b7879\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+142            <meta-data
+142-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\2ffa7fa6230a65811ab318e5b43d4c48\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+143                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+143-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\2ffa7fa6230a65811ab318e5b43d4c48\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+144                android:value="androidx.startup" />
+144-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\2ffa7fa6230a65811ab318e5b43d4c48\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+145            <meta-data
+145-->[androidx.profileinstaller:profileinstaller:1.2.0-alpha02] C:\Users\DELL\.gradle\caches\transforms-3\38b73047b234cdd72608c41568045b28\transformed\jetified-profileinstaller-1.2.0-alpha02\AndroidManifest.xml:31:13-33:52
+146                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+146-->[androidx.profileinstaller:profileinstaller:1.2.0-alpha02] C:\Users\DELL\.gradle\caches\transforms-3\38b73047b234cdd72608c41568045b28\transformed\jetified-profileinstaller-1.2.0-alpha02\AndroidManifest.xml:32:17-85
+147                android:value="androidx.startup" />
+147-->[androidx.profileinstaller:profileinstaller:1.2.0-alpha02] C:\Users\DELL\.gradle\caches\transforms-3\38b73047b234cdd72608c41568045b28\transformed\jetified-profileinstaller-1.2.0-alpha02\AndroidManifest.xml:33:17-49
+148        </provider>
+149
+150        <service
+150-->[androidx.room:room-runtime:2.3.0] C:\Users\DELL\.gradle\caches\transforms-3\e75099f806654681d275951e867e7acf\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+151            android:name="androidx.room.MultiInstanceInvalidationService"
+151-->[androidx.room:room-runtime:2.3.0] C:\Users\DELL\.gradle\caches\transforms-3\e75099f806654681d275951e867e7acf\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+152            android:directBootAware="true"
+152-->[androidx.room:room-runtime:2.3.0] C:\Users\DELL\.gradle\caches\transforms-3\e75099f806654681d275951e867e7acf\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+153            android:exported="false" />
+153-->[androidx.room:room-runtime:2.3.0] C:\Users\DELL\.gradle\caches\transforms-3\e75099f806654681d275951e867e7acf\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+154
+155        <receiver
+155-->[androidx.profileinstaller:profileinstaller:1.2.0-alpha02] C:\Users\DELL\.gradle\caches\transforms-3\38b73047b234cdd72608c41568045b28\transformed\jetified-profileinstaller-1.2.0-alpha02\AndroidManifest.xml:36:9-45:20
+156            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+156-->[androidx.profileinstaller:profileinstaller:1.2.0-alpha02] C:\Users\DELL\.gradle\caches\transforms-3\38b73047b234cdd72608c41568045b28\transformed\jetified-profileinstaller-1.2.0-alpha02\AndroidManifest.xml:37:13-76
+157            android:directBootAware="false"
+157-->[androidx.profileinstaller:profileinstaller:1.2.0-alpha02] C:\Users\DELL\.gradle\caches\transforms-3\38b73047b234cdd72608c41568045b28\transformed\jetified-profileinstaller-1.2.0-alpha02\AndroidManifest.xml:38:13-44
+158            android:enabled="true"
+158-->[androidx.profileinstaller:profileinstaller:1.2.0-alpha02] C:\Users\DELL\.gradle\caches\transforms-3\38b73047b234cdd72608c41568045b28\transformed\jetified-profileinstaller-1.2.0-alpha02\AndroidManifest.xml:39:13-35
+159            android:exported="true"
+159-->[androidx.profileinstaller:profileinstaller:1.2.0-alpha02] C:\Users\DELL\.gradle\caches\transforms-3\38b73047b234cdd72608c41568045b28\transformed\jetified-profileinstaller-1.2.0-alpha02\AndroidManifest.xml:40:13-36
+160            android:permission="android.permission.DUMP" >
+160-->[androidx.profileinstaller:profileinstaller:1.2.0-alpha02] C:\Users\DELL\.gradle\caches\transforms-3\38b73047b234cdd72608c41568045b28\transformed\jetified-profileinstaller-1.2.0-alpha02\AndroidManifest.xml:41:13-57
+161            <intent-filter>
+161-->[androidx.profileinstaller:profileinstaller:1.2.0-alpha02] C:\Users\DELL\.gradle\caches\transforms-3\38b73047b234cdd72608c41568045b28\transformed\jetified-profileinstaller-1.2.0-alpha02\AndroidManifest.xml:42:13-44:29
+162                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+162-->[androidx.profileinstaller:profileinstaller:1.2.0-alpha02] C:\Users\DELL\.gradle\caches\transforms-3\38b73047b234cdd72608c41568045b28\transformed\jetified-profileinstaller-1.2.0-alpha02\AndroidManifest.xml:43:17-91
+162-->[androidx.profileinstaller:profileinstaller:1.2.0-alpha02] C:\Users\DELL\.gradle\caches\transforms-3\38b73047b234cdd72608c41568045b28\transformed\jetified-profileinstaller-1.2.0-alpha02\AndroidManifest.xml:43:25-88
+163            </intent-filter>
+164        </receiver>
+165    </application>
+166
+167</manifest>
